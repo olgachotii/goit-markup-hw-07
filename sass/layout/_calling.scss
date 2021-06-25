@@ -1,0 +1,38 @@
+.calling {
+  padding-top: 0;
+}
+
+.calling-list {
+  display: flex;
+}
+
+.calling-card + .item {
+  margin-left: 30px;
+}
+
+.calling-card__stand {
+  position: relative;
+}
+
+.calling-card__content {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  background-color: var(--callng-background-color);
+}
+
+.calling-card__title {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--wight-color);
+}
