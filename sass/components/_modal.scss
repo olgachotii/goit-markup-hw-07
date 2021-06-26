@@ -69,7 +69,7 @@
   flex-direction: column;
 }
 
-.form-item {
+.modal-form__item {
   margin-bottom: 10px;
 }
 
@@ -86,12 +86,12 @@
   color: var(--title-text-color);
 }
 
-.form-item__field {
+.modal-form__field {
   height: 40px;
   padding-left: 42px;
 }
 
-.textarea__coment {
+.modal-form__coment {
   display: block;
   padding: 12px 16px;
   margin-top: 4px;
@@ -108,8 +108,8 @@
   }
 }
 
-.form-item__field,
-.textarea__coment {
+.modal-form__field,
+.modal-form__coment {
   width: 100%;
   border-radius: 4px;
   border: 1px solid var(--input-border-radius-color);
@@ -122,8 +122,8 @@
   }
 }
 
-.textarea,
-.form-item__caption {
+.modal-form__textarea,
+.modal-form__caption {
   margin-bottom: 4px;
   letter-spacing: 0.01em;
   font-style: normal;
@@ -132,7 +132,7 @@
   line-height: 1.167;
 }
 
-.textarea {
+.modal-form__textarea {
   margin-bottom: 20px;
 }
 
@@ -142,16 +142,16 @@
   padding: 10px 55px;
 }
 
-.form-item__caption {
+.modal-form__caption {
   display: inline-block;
 }
 
-.form-item__wrap {
+.modal-form__wrap {
   position: relative;
   width: 100%;
 }
 
-.form-item__icon {
+.modal-form__icon {
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
@@ -162,11 +162,11 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-item__field:focus + .form-item__icon {
+.modal-form__field:focus + .modal-form__icon {
   fill: var(--accent-first-color);
 }
 
-.agreement {
+.modal-form__agreement {
   display: flex;
   align-self: center;
 
@@ -179,11 +179,11 @@
   line-height: 1.714;
 }
 
-.agreement__link {
+.modal-form__link {
   color: var(--accent-first-color);
 }
 
-.agreement__checkbox {
+.modal-form__checkbox {
   display: block;
 
   -webkit-appearance: none;
@@ -191,7 +191,7 @@
   appearance: none;
 }
 
-.agreement__icon {
+.modal-form__checkbox-icon {
   display: inline-block;
 
   width: 16px;
@@ -202,12 +202,12 @@
   border-radius: 2px;
   background-origin: border-box;
 
-  .agreement__checkbox:checked + & {
+  .modal-form__checkbox:checked + & {
     background-color: var(--accent-first-color);
     background-image: url('data:image/svg+xml,%3Csvg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M3.957 7.752l-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422z" fill="%23fff" stroke="%23fff" stroke-width=".2"/%3E%3C/svg%3E');
     border: none;
   }
-  .agreement__checkbox:focus + & {
+  .modal-form__checkbox:focus + & {
     border: 2px solid var(--accent-first-color);
   }
 }

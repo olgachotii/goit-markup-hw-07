@@ -1,8 +1,8 @@
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item__wrapper {
+.features__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@
   border-radius: 4px;
 }
 
-.features-item__title {
+.features__title {
   margin-bottom: 10px;
 
   text-transform: uppercase;
@@ -23,6 +23,6 @@
   line-height: 1.14;
 }
 
-.features-item + .item {
+.features__item + .features__item {
   margin-left: 30px;
 }

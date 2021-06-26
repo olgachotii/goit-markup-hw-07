@@ -41,16 +41,16 @@
   margin-bottom: 20px;
 }
 
-.appeal {
+.footer__wraper {
   margin-left: 70px;
 }
 
-.footer-form {
+.footer__form {
   color: var(--wight-color);
   margin-left: auto;
 }
 
-.footer-form__email {
+.footer__email {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -67,19 +67,19 @@
   }
 }
 
-.footer-form__button {
+.footer__button {
   margin-left: 12px;
   display: flex;
   align-items: center;
   padding: 10px 28px;
 }
 
-.footer-form__button-icon {
+.footer__icon {
   display: inline-block;
   fill: currentColor;
   margin-left: 10px;
 }
 
-.footer-form__wrapper {
+.footer__form-wrapper {
   display: flex;
 }

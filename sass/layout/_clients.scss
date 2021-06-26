@@ -1,17 +1,17 @@
-.clients-list {
+.clients__list {
   display: flex;
 }
 
-.client + .item {
+.clients__item + .clients__item {
   margin-left: 30px;
 }
 
-.client {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.client__link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,6 @@
   }
 }
 
-.client__icon {
+.clients__icon {
   fill: currentColor;
 }

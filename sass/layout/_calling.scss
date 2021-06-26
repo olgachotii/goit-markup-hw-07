@@ -2,19 +2,19 @@
   padding-top: 0;
 }
 
-.calling-list {
+.calling__list {
   display: flex;
 }
 
-.calling-card + .item {
+.calling__card + .calling__card {
   margin-left: 30px;
 }
 
-.calling-card__stand {
+.calling__thumb {
   position: relative;
 }
 
-.calling-card__content {
+.calling__content {
   position: absolute;
   bottom: 0;
 
@@ -22,7 +22,7 @@
   background-color: var(--callng-background-color);
 }
 
-.calling-card__title {
+.calling__title {
   padding-top: 27px;
   padding-bottom: 27px;
 
